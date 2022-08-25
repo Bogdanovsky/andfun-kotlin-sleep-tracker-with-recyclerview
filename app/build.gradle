@@ -58,6 +58,7 @@ dependencies {
     implementation "androidx.core:core-ktx:$version_core"
 
     // Room and Lifecycle dependencies
+    kapt "org.xerial:sqlite-jdbc:3.36.0" // Only for computer with M1 CPU// Only for computer with M1 CPU
     implementation "androidx.room:room-runtime:$version_room"
     kapt "androidx.room:room-compiler:$version_room"
     implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
